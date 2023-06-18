@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    
     <h1>Registration Form</h1>
     <form action="End.html">
 
@@ -14,52 +15,53 @@
     Name :
     <input placeholder="Enter Your Name"
     name="name"
-    type="text"
+    required type="text"
     > <br><br>
 
     Father's Name :
     <input placeholder="Enter Your Fathers' Name"
     name="fatherName"
-    type="text"
+    required type="text"
     > <br><br>
 
     Mother's Name :
     <input placeholder="Enter Your Mother's Name"
     name="motherName"
-    type="text"
+    required type="text"
     ><br><br>
 
     Phone Number :
     <input placeholder="Phone Number"
     name="phoneNumber"
-    type="text"
+    required type="text"
     maxlength="11"
     ><br><br>
 
     Email :
     <input placeholder="Enter Your Email Address"
     name="emailAddress"
-    type ="email"
+    required type ="email"
     ><br><br>
  
     Gender :
-    <input id="maleRadio" type="radio" name="gender" value="male"  />
+    <input id="maleRadio" required type="radio" name="gender" value="male"  />
     <label for="maleRadio">Male</label>
     <label><input type="radio" name="gender" value="female" /> Female</label><br><br>
 
     Date Of Birth :
     <input placeholder="Enter Your Date Of Birth"
     name="dateOfBirth"
-    type="date"
+    required type="date"
     ><br><br>
-
-    Address :
+<div class="address">
+    <label>Textarea</label>
     <textarea 
     name="residentialAddress"
-    type="text"
+    required type="text" 
     cols="50"
-    rows="4"></textarea>
-    <br><br>
+    rows="4"
+    class="borderRadius"></textarea><br><br>
+</div>
 
     Blood Group :
     <select 
@@ -77,13 +79,13 @@
    </select><br><br>
    
     Department :
-    <input id="cseradio" type="radio" name="department" value="CSE"  />
+    <input id="cseradio" required type="radio" name="department" value="CSE"  />
     <label for="cseradio">CSE</label>
     <label><input type="radio" name="department" value="eee" /> EEE</label>
     <label><input type="radio" name="department" value="bba" /> BBA</label><br><br>
 
     Course :
-    <input type="checkbox" name="course" value="c" checked /> C
+    <input type="checkbox" name="course" value="c" /> C
     <input type="checkbox" name="course" value="c++" /> C++
     <input type="checkbox" name="course" value="java" /> Java
     <input type="checkbox" name="course" value="ai" /> AI
@@ -93,7 +95,7 @@
     Photo :
     <input placeholder="Attach Your Profile Photo"
     name="photo"
-    type="file"
+    required type="file"
     ><br><br>
 
 
