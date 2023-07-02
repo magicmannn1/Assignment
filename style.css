@@ -1,1 +1,51 @@
 a {color: #fff;}
+
+.firstRow{
+ display: flex;
+ text-align: center;
+ vertical-align: middle;
+
+}
+.Assignment1{
+    margin: 20px;
+ padding: 20px;
+ font-size: 40px;
+ font-family:'Trebuchet MS';
+ text-decoration: none;
+ 
+}
+.Assignment2{
+    margin: 20px;
+ padding: 20px;
+ font-size: 40px;
+ font-family:'Trebuchet MS';
+ text-decoration: none;
+}
+.Assignment3{
+    margin: 20px;
+ padding: 20px;
+ font-size: 40px;
+ font-family:'Trebuchet MS';
+ text-decoration: none;
+}
+.secondRow{
+    display: flex; 
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Assignment4{
+    margin: 20px;
+ padding: 20px;
+ font-size: 40px;
+ font-family:'Trebuchet MS';
+ text-decoration: none;
+}
+.Assignment5{
+    margin: 20px;
+ padding: 20px;
+ font-size: 40px;
+ font-family:'Trebuchet MS';
+ text-decoration: none;
+ 
+}
