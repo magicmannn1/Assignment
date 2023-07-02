@@ -47,13 +47,14 @@ h1 {
 
 .Welfare{
     display:inline-block;
-    background-color: burlywood;
+    background-color: rgb(226, 197, 159);
     width: 120px;
     height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
     padding: 10px; 
+    
    
 }
 .Medical{
