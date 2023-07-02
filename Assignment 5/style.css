@@ -102,7 +102,7 @@ h1 {
 }
 .Food{
     display:inline-block;
-    background-color: burlywood;
+    background-color: #777;
     width: 120px;
     height: 120px;
     margin: 20px;
@@ -112,4 +112,7 @@ h1 {
 }
 p{
     font-size: 20px;
+}
+#education{
+    margin-top: 31px;
 }
