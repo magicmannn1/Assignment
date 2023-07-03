@@ -53,8 +53,8 @@ h1 {
 .Welfare{
     display:inline-block;
     background-color: rgba(182,239,73,.3);
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
@@ -65,8 +65,8 @@ h1 {
 .Medical{
     display:inline-block;
     background-color: rgba(182,239,73,.3);
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
@@ -75,8 +75,8 @@ h1 {
 .Online{
     display:inline-block;
     background-color: rgba(182,239,73,.3);
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
@@ -85,8 +85,8 @@ h1 {
 .RO{
     display:inline-block;
     background-color: rgba(182,239,73,.3);
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
@@ -97,8 +97,8 @@ h1 {
 .Education{
     display:inline-block;
     background-color: rgba(182,239,73,.3);
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
@@ -108,8 +108,8 @@ h1 {
 .Food{
     display:inline-block;
     background-color: rgba(182,239,73,.3);
-    width: 120px;
-    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
