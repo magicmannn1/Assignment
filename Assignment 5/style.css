@@ -21,9 +21,9 @@ h1 {
     
 }
 .slogan{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Kanit';
-    letter-spacing: 1.2px;
+    line-height: 35px;
    
     
 
@@ -52,7 +52,7 @@ h1 {
 
 .Welfare{
     display:inline-block;
-    background-color: rgba(182,239,73,.3);
+    background-color: rgba(182,239,73,.2);
     width: 120px;
     height: 120px;
     margin: 20px;
