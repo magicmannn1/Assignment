@@ -1,10 +1,12 @@
+
+
+
+
+
 .main {
     display: flex;
     justify-content: center;
-    padding: 30px;
-    
-    
-    
+    padding: 30px;   
 }
 .image{
     padding-left: 50px;
@@ -20,9 +22,7 @@ h1 {
 }
 .slogan{
     font-size: 30px;
-    font-weight: bold;
-    font-family: Georgia;
-    font-style: italic;
+    font-family: 'Kanit';
     letter-spacing: 1.2px;
    
     
@@ -32,6 +32,11 @@ h1 {
     font-size: 17px;
     font-family:'Lucida Sans';
     color:#101010;
+    background-color: rgba(182,239,73,.3);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    justify-content: center;
 }
 .main2{
     text-align: center;
@@ -47,7 +52,7 @@ h1 {
 
 .Welfare{
     display:inline-block;
-    background-color: rgb(226, 197, 159);
+    background-color: rgba(182,239,73,.3);
     width: 120px;
     height: 120px;
     margin: 20px;
@@ -59,7 +64,7 @@ h1 {
 }
 .Medical{
     display:inline-block;
-    background-color: burlywood;
+    background-color: rgba(182,239,73,.3);
     width: 120px;
     height: 120px;
     margin: 20px;
@@ -69,7 +74,7 @@ h1 {
 }
 .Online{
     display:inline-block;
-    background-color: burlywood;
+    background-color: rgba(182,239,73,.3);
     width: 120px;
     height: 120px;
     margin: 20px;
@@ -79,7 +84,7 @@ h1 {
 }
 .RO{
     display:inline-block;
-    background-color: burlywood;
+    background-color: rgba(182,239,73,.3);
     width: 120px;
     height: 120px;
     margin: 20px;
@@ -91,7 +96,7 @@ h1 {
 }
 .Education{
     display:inline-block;
-    background-color: burlywood;
+    background-color: rgba(182,239,73,.3);
     width: 120px;
     height: 120px;
     margin: 20px;
@@ -102,7 +107,7 @@ h1 {
 }
 .Food{
     display:inline-block;
-    background-color: #777;
+    background-color: rgba(182,239,73,.3);
     width: 120px;
     height: 120px;
     margin: 20px;
